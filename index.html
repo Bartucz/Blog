@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bartucz Tamás</title>
+    <link rel="stylesheet" href="stilus.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="Ajax.js"></script>
+    <script src="Task.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <form id="form">
+          <fieldset>
+            <legend>Posts:</legend>
+            <label for="id">ID</label>
+            <input type="text" id="id" name="id" /><br />
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" /><br />
+            <label for="description">Description</label>
+            <textarea cols="20" rows="4" id="description" name="description"></textarea><br />
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" /><br />
+            <label for="date">User-id</label>
+            <select name="userid" id="userid">
+              <option>User-id</option></select
+            ><br />
+            <label for="lajk">Lájk</label>
+            <input type="number" id="lajk" name="lajk" /><br />
+            
+            <br />
+            
+            <input type="button" id="ujPost" value="Új Post" />
+          </fieldset>
+        </form>
+      </section>
+      <article id="post">
+        <div class="postSablon">
+          <h3></h3>
+          <p class="description"></p>
+          <p class="date"></p>
+          <p class="user-id"></p>
+          <p class="lajk"></p>
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </div>
+      </article>
+      <footer>Bartucz Tamás</footer>
+    </main>
+  </body>
+</html>

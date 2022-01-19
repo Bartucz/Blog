@@ -1,0 +1,34 @@
+{
+    "users": [
+      {
+        "user_id": 1,
+        "name": "Tamás"
+      },
+      {
+        "user_id": 2,
+        "name": "József"
+      },
+      {
+        "user_id": 3,
+        "name": "Gábor"
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "title": "feladat_1",
+        "description": "Task rögzítése űrlap",
+        "date": "2021-12-03",
+        "user-id": 1,
+        "lajk": 3
+      },
+      {
+        "id": 2,
+        "title": "feladat_2",
+        "description": "Taskok megjelenítése",
+        "date": "2021-12-03",
+        "user-id": 2,
+        "lajk": 4
+      }
+    ]
+  }
